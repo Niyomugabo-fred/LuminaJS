@@ -1,0 +1,24 @@
+# Development files
+.github/
+.vscode/
+.idea/
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Examples
+examples/
+pages/
+
+# Config files
+.eslintrc*
+.prettierrc*
+vite.config.js

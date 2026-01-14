@@ -1,7 +1,27 @@
 {
-  "name": "LuminaJS project",
+  "name": "luminajs",
   "version": "0.1.0",
+  "description": "A minimal, React-based SSR framework inspired by Next.js with dynamic routes, API routes, and backend proxy support",
   "type": "module",
+  "author": "Niyomugabo-fred",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "ssr",
+    "framework",
+    "nextjs",
+    "server-side-rendering",
+    "dynamic-routes",
+    "api-routes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Niyomugabo-fred/LuminaJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Niyomugabo-fred/LuminaJS/issues"
+  },
+  "homepage": "https://github.com/Niyomugabo-fred/LuminaJS#readme",
   "scripts": {
     "dev": "node bin/cli.js dev",
     "build": "node bin/cli.js build",

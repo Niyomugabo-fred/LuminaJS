@@ -1,6 +1,47 @@
 # LuminaJS
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/Niyomugabo-fred/LuminaJS/workflows/CI/badge.svg)](https://github.com/Niyomugabo-fred/LuminaJS/actions)
+[![npm version](https://img.shields.io/npm/v/luminajs.svg?style=flat)](https://www.npmjs.com/package/luminajs)
+
 **LuminaJS** is a minimal, React-based SSR framework inspired by Next.js. It supports dynamic routes, API routes, and can proxy requests to any backend, including Node or PHP servers. Designed to work on **Windows, macOS, and Linux**.
+
+## Table of Contents
+
+- [Features](#features)
+- [Quick Start](#quick-start)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [CLI Commands](#cli-commands)
+- [Routing](#routing)
+  - [Static Pages](#static-pages)
+  - [Dynamic Pages](#dynamic-pages)
+- [API Routes](#api-routes)
+- [Backend Proxy](#backend-proxy-php--external-api)
+- [Hot Reload](#hot-reload)
+- [Static Build](#static-build)
+- [Contributing](#contributing--collaboration)
+- [License](#license)
+
+---
+
+## Quick Start
+
+Get started with LuminaJS in just a few commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/Niyomugabo-fred/LuminaJS.git
+cd LuminaJS
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Visit `http://localhost:3000` to see your app running!
 
 ---
 
@@ -180,10 +221,11 @@ To contribute:
 4. Push branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
 
+Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
+
 ---
 
 ## License
 
-MIT License
+MIT License - see the [LICENSE](LICENSE) file for details.
 
-Do you want me to do that?
